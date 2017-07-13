@@ -22,13 +22,13 @@ Android 和JavaScript交互，互调方法(包括无参调用和有参数调用)
             
  4. 有参调用Js点击
     findViewById(R.id.button2)
-            .setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                // 传递参数调用
-                                contentWebView.loadUrl("javascript:javaCallJsWith(" + "'http://blog.csdn.net/luoshengyang/article/details/6618363/'" + ")");
-                            }
-                        });  
+        .setOnClickListener(new View.OnClickListener() {
+             @Override
+              public void onClick(View v) {
+                // 传递参数调用
+                contentWebView.loadUrl("javascript:javaCallJsWith(" + "'http://blog.csdn.net/luoshengyang/article/details/6618363/'" + ")");
+              }
+    });  
  
  JS调用Android方法
  
