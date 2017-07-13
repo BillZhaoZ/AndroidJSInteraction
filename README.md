@@ -9,6 +9,7 @@ Android 和JavaScript交互，互调方法(包括无参调用和有参数调用)
      contentWebView.addJavascriptInterface(MainActivity.this, "android");
  
  安卓调用JS
+ 
  3. 无参调用Js点击
  
     findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
