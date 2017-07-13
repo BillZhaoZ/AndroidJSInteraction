@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Android调用界面："
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/holo_red_light"/>
 
     <Button
         android:id="@+id/button"
@@ -36,7 +36,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:text="WebView调用界面"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/holo_red_light"/>
 
     <WebView
         android:id="@+id/webview"
